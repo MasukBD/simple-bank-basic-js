@@ -1,3 +1,5 @@
+// logIn page handler
+
 document.getElementById('submit-button').addEventListener('click', function () {
     // get user id 
     const userIdField = document.getElementById('user-id');
@@ -6,7 +8,7 @@ document.getElementById('submit-button').addEventListener('click', function () {
     const passwordField = document.getElementById('user-password');
     const password = passwordField.value;
     // check user id and password 
-    if (userId == 'masuk@scu.com' && password == 'masuk') {
+    if (userId == 'scu17' && password == '123') {
         window.location.href = 'banking.html';
     }
-})
+});
